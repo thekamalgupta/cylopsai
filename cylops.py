@@ -53,8 +53,8 @@ def sendEmail(to,content):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('cylopsai@gmail.com','cylopsai1234')
-    server.sendmail('cylopsai@gmail.com',to,content)
+    server.login('youremail@domain.com','password')
+    server.sendmail('youremail@domain.com',to,content)
     server.close()
 
 #jokes using the pyjokes module
