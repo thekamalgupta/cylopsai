@@ -2,7 +2,7 @@
 A simple virtual assistant program built using Python3
 
 This virtual assistant is able to give speech output and use user speech as input to execute commands. 
-The following features are implemented in version 1 of the Cylops Virtaual Assistant:
+The following features are implemented in version 1 of the Cylops Virtual Assistant:
 
 1. Greeting the user with current date and time upon launch.
 2. Search for a query on wikipedia and give out its summary in both text and speech format. (like : "Search for Python on Wikipedia")
