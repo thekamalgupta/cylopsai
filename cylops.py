@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
         elif 'song' in query and 'play' in query:
             #play song
-            music_dir = r"C:\Users\dhira\OneDrive\Documents\Rockstar Games\GTA V\User Music"
+            music_dir = r"your_music_directory"
             songs = os.listdir(music_dir)
             os.startfile(os.path.join(music_dir,songs[0]))
 
